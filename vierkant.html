@@ -3,7 +3,22 @@
     <head>
         <title>Sjabloon</title>
     </head>
+    <link rel="stylesheet" href="vierkant.css">
     <body>
-        
+            <form id="form" onsubmit="return false;">
+             Hoogte: <input type="text" id="input1" />
+                <br>
+                <br>
+            Breedte: <input type="text" id="input2" />
+                <br>
+                <br>
+            Kleur: <input type="text" id="input3" />
+                <br>
+                <br>
+            <input type="submit" onclick="pixelTotaal()" />
+	       </form>
+                <br>
+            <div id="block"></div>
+                <script src="vierkant.js"></script>
     </body>
 </html>
